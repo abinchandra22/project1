@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+/* navigation bar */
+.navbar1 {
+    height: 103px;
+    width: 100%;
+    background-color: pink;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+    /* position: relative; */
+    z-index: 1;
+}
+
+/* headin 1 */
+.h {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Almendra Display', cursive;
+    font-size: 40px;
+    color: blueviolet;
+}
+
+/* a tags */
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+
+/* icons */
+.fa-solid {
+    color: black;
+}
+
+/* search bar */
+.text {
+    margin-left: 630px;
+    text-align: center;
+    height: 20px;
+    width: 218px;
+    flex-wrap: wrap;
+}
+
+/* button */
+.butt1 {
+    width: 60px;
+    background-color: transparent;
+    transition: 2;
+}
+
+.butt1:hover {
+    background-color: whitesmoke;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* animation */
+.pick {
+    height: 620px;
+    width: 100%;
+    background-image: url("./food/food2.jpg");
+    background-size: 100% 100%;
+    animation: anim 12s ease-in-out infinite;
+    margin-top: 100px;
+    transition: 5s ease-in-out;
+    background-image: linear-gradient(black, black);
+    flex-wrap: wrap;
+}
+
+@keyframes anim {
+    0% {
+        background-image: url("./food/food2.jpg");
+    }
+
+    25% {
+        background-image: url("./food/food5.jpg");
+    }
+
+    50% {
+        background-image: url("./food/food3.jpg");
+    }
+
+    75% {
+        background-image: url("./food/food6.jpg");
+    }
+
+    100% {
+        background-image: url("./food/food7.jpg");
+    }
+}
+
+/* heding 2 */
+.h2 {
+    text-align: center;
+    padding: 200px;
+    color: white;
+    font-family: 'Molle', cursive;
+    font-size: xx-large;
+    font-size: 100px;
+}
+
+/* paragraph on image */
+#p1 {
+    text-align: center;
+    color: white;
+    margin-top: -160px;
+    font-family: 'Molle', cursive;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* main div boxes */
+.b {
+
+    width: 20%;
+    height: 500px;
+    /* border: 2px red solid; */
+    float: left;
+    margin: 35px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* food images */
+.img1 {
+    height: 300px;
+    width: 99%;
+    margin-left: 1px;
+    margin-top: 1px;
+    position: absolute;
+    border-radius: 50%;
+}
+/* circle div */
+.i {
+    height: 300px;
+    width: 99%;
+    border-radius: 50%;
+    position: relative;
+    transition: 1;
+}
+
+.i:hover {
+    transform: scale(1.1);
+}
+/* headind of food */
+.h1 {
+    text-align: center;
+}
+/* prize */
+h2 {
+    text-align: center;
+}
+/* buy now button */
+.button {
+    height: 50px;
+    width: 100Px;
+    margin-left: 93px;
+    margin-top: 20px;
+    border-radius: 56px;
+    border-color: transparent;
+    background-color: transparent;
+    transition: 2;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 whitesmoke, 0 6px 20px 0 red;
+}
+/* star rating */
+#star{
+   margin-left: 93px;
+}
+hr{
+    color: red;
+    border: 5px;
+}
+/* footer */
+.f1{
+    background-color: rgb(29, 27, 27);
+/* background-color: transparent; */
+    height: 300px;
+    width: 100%;
+    margin-top: 1120px;
+    
+}
+.a1{
+    color: white;
+    margin-left: 275px;
+}
+.fa-brands{
+    color: white;
+    margin-left: 275px;
+}
+#fa{
+    color: white;
+    margin-left: 275px;
+}
+.fa-regular{
+    color: white;
+    margin-left: 700px;
+} 
